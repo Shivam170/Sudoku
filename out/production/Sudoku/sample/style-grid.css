@@ -1,0 +1,38 @@
+.custom{
+
+    -fx-background-color:transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color:rgba(55,55,55,1); /* here rgba (corrected) */
+
+       -fx-border-color: #000000;
+            -fx-border-width: 0.5 0.5 0.5 0.5;
+
+            -fx-font-family: 'Caviar Dreams';
+            -fx-font-weight: bold;
+            -fx-font-size: 20px;
+            -fx-text-alignment: center;
+
+
+}
+
+#stpane{
+            -fx-border-color: black;
+            -fx-border-width:2 2 2 2;
+}
+
+.button {
+    -fx-background-color:
+        #000000,
+
+        linear-gradient(#426ab7, #263e75),
+        linear-gradient(#395cab, #223768);
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 12 30 12 30;
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+}
+
+
+
+
